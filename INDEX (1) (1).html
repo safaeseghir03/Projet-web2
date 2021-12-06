@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title> QUIZ</title>
+
+<style>
+
+*{
+	padding:0;
+	margin:0;
+	font-family:"poppins";
+
+}
+body{
+	background:#1f1d21;
+    justify-content:center;
+	align-items:center;
+	display:flex;
+	height:100vh;
+	background-image: url("https://thumbs.dreamstime.com/z/quiz-arri%C3%A8re-plan-des-questions-rep%C3%A8res-pour-la-conception-de-couverture-banni%C3%A8re-web-mod%C3%A8le-transparent-vectorielles-avec-212715723.jpg");
+    
+
+}
+
+
+.blue{
+	background:none;
+	width:250px;
+	height:110px;
+	border: 4px solid #45aaf2;
+	font-size:30px;   
+	font-weight:bold;
+	color :#45aaf2;
+	transition:.4s linear;
+	position:relative;
+	cursor: pointer;
+}
+.blue:hover{
+	color:white;
+}
+.blue::before{
+	content:"";
+	position:absolute;
+	width:0px;
+	height:105px;
+	top:0px;
+	left:0px;
+	background-color:#45aaf2;
+	z-index:-1;
+	transition: .4s linear;}
+	.blue:hover::before{
+	width:220px;
+}
+.hotpink{
+	background:none;
+	width:250px;
+	height:110px;
+	border: 4px solid #45aaf2;
+	font-size:30px;   
+	font-weight:bold;
+	color :#45aaf2;
+	transition:.4s linear;
+	position:relative;
+	cursor: pointer;
+}
+.hotpink:hover{
+	color:white;
+}
+.hotpink::before{
+	content:"";
+	position:absolute;
+	width:0px;
+	height:105px;
+	top:0px;
+	left:0px;
+	background-color:#cc6699;
+	z-index:-1;
+	transition: .4s linear;}
+.hotpink:hover::before{
+	width:220px;
+}
+.aqua{
+	background:none;
+	width:250px;
+	height:110px;
+	border: 4px solid #45aaf2;
+	font-size:30px;   
+	font-weight:bold;
+	color :#45aaf2;
+	transition:.4s linear;
+	position:relative;
+	cursor: pointer;
+}
+.aqua:hover{
+	color:white;
+}
+.aqua::before{
+	content:"";
+	position:absolute;
+	width:0px;
+	height:105px;
+	top:0px;
+	left:0px;
+	background-color:#99ddff;
+	z-index:-1;
+	transition: .4s linear;}
+.aqua:hover::before{
+	width:220px;
+}
+.chartreuse{
+	background:none;
+	width:250px;
+	height:110px;
+	border: 4px solid #45aaf2;
+	font-size:30px;   
+	font-weight:bold;
+	color :#45aaf2;
+	transition:.4s linear;
+	position:relative;
+	cursor: pointer;
+}
+.chartreuse:hover{
+	color:white;
+}
+.chartreuse::before{
+	content:"";
+	position:absolute;
+	width:0px;
+	height:105px;
+	top:0px;
+	left:0px;
+	background-color:#45aaf2;
+	z-index:-1;
+	transition: .4s linear;}
+.chartreuse:hover::before{
+	width:220px;
+}
+.olivedrab{
+	background:none;
+	width:250px;
+	height:110px;
+	border: 4px solid #45aaf2;
+	font-size:30px;   
+	font-weight:bold;
+	color :#45aaf2;
+	transition:.4s linear;
+	position:relative;
+	cursor: pointer;
+}
+.olivedrab:hover{
+	color:white;
+}
+.olivedrab::before{
+	content:"";
+	position:absolute;
+	width:0px;
+	height:105px;
+	top:0px;
+	left:0px;
+	background-color:#9900cc;
+	z-index:-1;
+	transition: .4s linear;}
+.olivedrab:hover::before{
+	width:220px;
+}
+.grey{
+	background:none;
+	width:250px;
+	height:110px;
+	border: 4px solid #45aaf2;
+	font-size:30px;   
+	font-weight:bold;
+	color :#45aaf2;
+	transition:.4s linear;
+	position:relative;
+	cursor: pointer;
+}
+.grey:hover{
+	color:white;
+}
+.grey::before{
+	content:"";
+	position:absolute;
+	width:0px;
+	height:105px;
+	top:0px;
+	left:0px;
+	background-color:#aa80ff;
+	z-index:-1;
+	transition: .4s linear;}
+.grey:hover::before{
+	width:220px;
+}
+
+</style>
+</head>
+<body>
+
+<button  class="hotpink" onclick="window.location.href='ORACLE.html'">ORACLE</button>
+<button class="blue" onclick="window.location.href='Réseau.html'">Réseau</button>
+<button  class="aqua"onclick="window.location.href='CSS.html'">CSS</button>
+<button class="olivedrab"onclick="window.location.href='JAVA.html'">JAVA</button>
+<button class="grey"onclick="window.location.href='UML.html'">UML</button>
+<button class="chartreuse" onclick="window.location.href='PHP.html'">PHP</button>
+
+</body>
+</html>

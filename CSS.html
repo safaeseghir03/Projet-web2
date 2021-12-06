@@ -1,0 +1,165 @@
+<html><head><title>QUIZ INFORMATIQUE</title><meta http-equiv="Content-Type"
+ content="text/html; "charset=ISO-8859-1"></head>
+  <style>body{
+	
+  background-image: url("css5.png");
+ 
+  
+
+  background-size:cover;
+  background-repeat: no-repeat;
+	 align-items: center;
+}
+</style>
+<body>
+<script type="text/javascript">
+
+var q1= 0;
+var q2= 0;
+var q3= 0;
+var q4= 0;
+var q5= 0;
+var q6= 0;
+var q7= 0;
+var q8= 0;
+var q9= 0;
+var q10= 0;
+
+//calcul du score
+function calcul() {score=q1+q2+q3+q4+q5+q6+q7+q8+q9+q10;}
+
+
+//commentaire du résultat
+function resultat() {calcul();
+					 switch (score)
+{
+case 0:
+alert ("votre resultat est "+score+" sur 10,Réesayer une autre fois");
+break;
+case 1:
+alert ("votre resultat est "+score+" sur 10,Insufisant");
+break;
+case 2:
+alert ("votre resultat est "+score+" sur 10,Insufisant");
+break;
+case 3:
+alert ("votre resultat est "+score+" sur 10,Insufisant");
+break;
+case 4:
+alert ("votre resultat est "+score+" sur 10,Insufisant");
+break;
+case 5:
+alert ("votre resultat est "+score+" sur 10,Passable");
+break;
+case 6:
+alert("votre resultat est "+score+" sur 10,Assez Bien");
+break;
+case 7:
+alert("votre resultat est "+score+" sur 10,Assez Bien");
+break;
+case 8:
+alert("votre resultat est "+score+" sur 10,Bien");
+break;
+case 9:
+alert("votre resultat est "+score+" sur 10,Trés Bien");
+break;
+case 10:
+alert ("votre resultat est "+score+" sur 10,Exellent");
+break;
+}
+}
+ </script>
+
+<div align="center"><br><big style="font-style: italic;"><font style="font-family: Arial; font-weight: bold; color: blue;font-size: 50px;">QUIZ CSS</font></big></div>
+</div>
+
+<form><p>
+<!--Mise en forme de tout le texte sauf Question X-->
+<font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 1 :</b></font>
+<br> HTML est considéré comme ______ ?<br>
+<input type="radio"  name="choix1" onclick='q1=1'>Langage de balisage<br>
+<input type="radio" name="choix1" onclick='q1=0'>Langage POO<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 2 :</b></font>
+<br>HTML utilise des ______?<br>
+<input type="radio" name="choix2" onclick='q2=0'>Balises prédéfinis<br>
+<input type="radio" name="choix2" onclick='q2=1'>Balises fixes définis par le langage<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 3 :</b></font>
+<br>Lequel des éléments suivants n’est pas un exemple de navigateur?<br>
+<input type="radio" name="choix3" onclick='q3=0'>Netscape<br>
+<input type="radio" name="choix3" onclick='q3=1'>Opéra<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 4 :</b></font>
+<br>HTML a été proposé pour la première fois l’année ___?<br>
+<input type="radio" name="choix4" onclick='q4=1'>1990<br>
+<input type="radio" name="choix4" onclick='q4=0'>2000<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 5 :</b></font>
+<br> Si nous souhaitons définir le style d’un seule élément, quel sélecteur css utiliserons-nous?<br>
+<input type="radio" name="choix5" onclick='q5=0'>name<br>
+<input type="radio" name="choix5" onclick='q5=1'>id<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 6 :</b></font>
+<br>La balise HTML qui spécifie un style CSS intégré dans un élément est appelée ____?<br>
+<input type="radio" name="choix6" onclick='q6=0'>Modify<br>
+<input type="radio" name="choix6" onclick='q6=1'>Style<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 7 :</b></font>
+<br> Dans quel balise HTML plaçons-nous le code JavaScript?<br>
+<input type="radio" name="choix7" onclick='q7=0'>  La balise rel<br>
+<input type="radio" name="choix7" onclick='q7=1'> La balise script<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 8 :</b></font>
+<br> Comment faire appelle à une fonction nommée « sum »?<br>
+<input type="radio" name="choix8" onclick='q8=0'> call sum()<br>
+<input type="radio" name="choix8" onclick='q8=1'>sum()<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 9 :</b></font>
+<br>Le fichier externe de JavaScript doit contenir la balise script>?<br>
+<input type="radio" name="choix9" onclick='q9=0'>Vrai<br>
+<input type="radio" name="choix9" onclick='q9=1'>Faux<br></p>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 10 :</b></font>
+<br>Quel est le bon endroit pour insérer un code JavaScript?<br>
+<input type="radio" name="choix10" onclick='q10=0'>La section <body> <br>
+<input type="radio" name="choix10" onclick='q10=1'>  Les deux sections head et body sont correctes<br></p>
+
+
+
+<p align="center">
+<input name="Submit" value="resultat" onclick="resultat()" type="button" 
+style="
+	width:150px;
+	height:60px;
+	border: 4px solid #ff1493;
+	font-size:20px;   
+	font-weight:bold;
+	color :white;
+	background: #0F9DE8;
+	position:relative;
+	cursor: pointer;
+	border: 4px solid #0F056B;"></p>
+</form>
+
+</body></html>

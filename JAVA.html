@@ -1,0 +1,160 @@
+<html><head><title>QUIZ INFORMATIQUE</title><meta http-equiv="Content-Type"
+ content="text/html; "charset=ISO-8859-1"></head>
+ <style>
+ body{
+	background-image:url("java.jpg");
+background-repeat: no-repeat;
+	 align-items: center;
+	background-size:cover;
+	}
+
+</style>
+<body>
+<script type="text/javascript">
+
+var q1= 0;
+var q2= 0;
+var q3= 0;
+var q4= 0;
+var q5= 0;
+var q6= 0;
+var q7= 0;
+var q8= 0;
+var q9= 0;
+var q10= 0;
+
+//calcul du score
+function calcul() {score=q1+q2+q3+q4+q5+q6+q7+q8+q9+q10;}
+
+
+//commentaire du résultat
+function resultat() {calcul();
+					 switch (score)
+{
+case 0:
+alert ("votre resultat est "+score+" sur 10,Réesayer une autre fois");
+break;
+case 1:
+alert ("votre resultat est "+score+" sur 10,Insufisant");
+break;
+case 2:
+alert ("votre resultat est "+score+" sur 10,Insufisant");
+break;
+case 3:
+alert ("votre resultat est "+score+" sur 10,Insufisant");
+break;
+case 4:
+alert ("votre resultat est "+score+" sur 10,Insufisant");
+break;
+case 5:
+alert ("votre resultat est "+score+" sur 10,Passable");
+break;
+case 6:
+alert("votre resultat est "+score+" sur 10,Assez Bien");
+break;
+case 7:
+alert("votre resultat est "+score+" sur 10,Assez Bien");
+break;
+case 8:
+alert("votre resultat est "+score+" sur 10,Bien");
+break;
+case 9:
+alert("votre resultat est "+score+" sur 10,Trés Bien");
+break;
+case 10:
+alert ("votre resultat est "+score+" sur 10,Exellent");
+break;
+}
+}
+ </script>
+
+<div align="center"><br><big style="font-style: italic;"><font style="font-family: Arial; font-weight: bold; color: blue;font-size: 50px;">QUIZ java </font></big></div>
+</div>
+
+<form><p>
+<!--Mise en forme de tout le texte sauf Question X-->
+<font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 1 :</b></font>
+<br> Lequel des éléments suivants n’est pas un concept POO en Java?<br>
+<input type="radio" name="choix1" onclick='q1=0'>Héritage<br>
+<input type="radio" name="choix1" onclick='q1=1'> Compilation<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 2 :</b></font>
+<br>Quand la surcharge de méthode est-elle déterminée?<br>
+<input type="radio" name="choix2" onclick='q2=1'>Au moment de la compilation<br>
+<input type="radio" name="choix2" onclick='q2=0'>Au moment de l’exécution<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 3 :</b></font>
+<br> Quel concept de Java est un moyen de convertir des objets du monde réel en termes de classe? :<br>
+<input type="radio" name="choix3" onclick='q3=1'>Abstraction<br>
+<input type="radio" name="choix3" onclick='q3=0'>Héritage<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 4 :</b></font>
+<br>Quel concept de Java est utilisé en combinant des méthodes et des attributs dans une classe?<br>
+<input type="radio" name="choix4" onclick='q4=0'>Polymorphisme<br>
+<input type="radio" name="choix4" onclick='q4=1'>Encapsulation<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 5 :</b></font>
+<br>Comment ça s’appelle si un objet a son propre cycle de vie?<br>
+<input type="radio" name="choix5" onclick='q5=1'>Association<br>
+<input type="radio" name="choix5" onclick='q5=0'>Composition<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 6 :</b></font>
+<br>Comment s’appelle-t-on dans le cas où l’objet d’une classe mère est détruit donc l’objet d’une classe fille sera détruit également?<br>
+<input type="radio" name="choix6" onclick='q6=0'>Encapsulation<br>
+<input type="radio" name="choix6" onclick='q6=1'>Composition<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 7 :</b></font>
+<br> Comment s’appelle-t-on l’objet a son propre cycle de vie et l’objet d’une classe fille ne dépend pas à un autre objet d’une classe mère?<br>
+<input type="radio" name="choix7" onclick='q7=1'>Agrégation<br>
+<input type="radio" name="choix7" onclick='q7=0'>Encapsulation<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 8 :</b></font>
+<br> La surcharge d’une méthode peut remplacer l’héritage et le polymorphisme?<br>
+<input type="radio" name="choix8" onclick='q8=1'>Vrai<br>
+<input type="radio" name="choix8" onclick='q8=0'>Faux<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 9 :</b></font>
+<br>Quels keywords sont utilisés pour spécifier la visibilité des propriétés et des méthodes ?<br>
+<input type="radio" name="choix9" onclick='q9=0'>final<br>
+<input type="radio" name="choix9" onclick='q9=1'>private<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 10 :</b></font>
+<br>Quelle est la plage de valeurs autorisée pour une variable déclarée avec le type byte?<br>
+<input type="radio" name="choix10" onclick='q10=0'> [0, 255]<br>
+<input type="radio" name="choix10" onclick='q10=1'> [-128, 127]<br>
+<p align="center">
+<input name="Submit" value="resultat" onclick="resultat()" type="button"
+style="
+	width:150px;
+	height:60px;
+	border: 4px solid #FF0000;
+	font-size:20px;   
+	font-weight:bold;
+	color :blue;
+	background: #FEE7F0;
+	position:relative;
+	cursor: pointer;
+	border: 4px solid #FF0000;"></p>
+</form>
+
+</body></html>

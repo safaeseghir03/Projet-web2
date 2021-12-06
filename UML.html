@@ -1,0 +1,160 @@
+<html><head><title>QUIZ INFORMATIQUE</title><meta http-equiv="Content-Type"
+ content="text/html; "charset=ISO-8859-1"></head>
+  <style>body{
+  	
+	background-image:url("uml.png");
+background-repeat: no-repeat;
+	 align-items: center;
+	background-size:cover;}
+</style>
+<body>
+<script type="text/javascript">
+
+var q1= 0;
+var q2= 0;
+var q3= 0;
+var q4= 0;
+var q5= 0;
+var q6= 0;
+var q7= 0;
+var q8= 0;
+var q9= 0;
+var q10= 0;
+
+//calcul du score
+function calcul() {score=q1+q2+q3+q4+q5+q6+q7+q8+q9+q10;}
+
+
+//commentaire du résultat
+ function resultat() {calcul();
+					 switch (score)
+{
+case 0:
+alert ("votre resultat est "+score+" sur 10,Réesayer une autre fois");
+break;
+case 1:
+alert ("votre resultat est "+score+" sur 10,Insufisant");
+break;
+case 2:
+alert ("votre resultat est "+score+" sur 10,Insufisant");
+break;
+case 3:
+alert ("votre resultat est "+score+" sur 10,Insufisant");
+break;
+case 4:
+alert ("votre resultat est "+score+" sur 10,Insufisant");
+break;
+case 5:
+alert ("votre resultat est "+score+" sur 10,Passable");
+break;
+case 6:
+alert("votre resultat est "+score+" sur 10,Assez Bien");
+break;
+case 7:
+alert("votre resultat est "+score+" sur 10,Assez Bien");
+break;
+case 8:
+alert("votre resultat est "+score+" sur 10,Bien");
+break;
+case 9:
+alert("votre resultat est "+score+" sur 10,Trés Bien");
+break;
+case 10:
+alert ("votre resultat est "+score+" sur 10,Exellent");
+break;
+}
+}
+ </script>
+
+<div align="center"><br><big style="font-style: italic;"><font style="font-family: Arial; font-weight: bold; color:#9E0E40;font-size: 50px;">QUIZ UML</font></big></div>
+</div>
+
+<form><p>
+<!--Mise en forme de tout le texte sauf Question X-->
+<font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 1 :</b></font>
+<br>Quel diagramme permet d’illustrer un cas réel en représentant les liens entre les instances ?<br>
+<input type="radio" name="choix1" onclick='q1=1'>diagramme d’objets<br>
+<input type="radio" name="choix1" onclick='q1=0'>diagramme de collaboration<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 2 :</b></font>
+<br>Quels types d’artefacts permettent de documenter un cas d’utilisation ?<br>
+<input type="radio" name="choix2" onclick='q2=1'>diagramme d’activités<br>
+<input type="radio" name="choix2" onclick='q2=0'>diagramme de collaboration<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 3 :</b></font>
+<br>Quelle affirmation définit le mieux à l’activité d’analyse (au sens du génie logiciel) ?<br>
+<input type="radio" name="choix3" onclick='q3=1'>description du domaine étudié<br>
+<input type="radio" name="choix3" onclick='q3=0'>description de la solution proposée (non, c’est la conception)<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 4 :</b></font>
+<br>Les attributs et méthodes privés sont précédés du signe ? <br>
+<input type="radio" name="choix4" onclick='q4=0'>+<br>
+<input type="radio" name="choix4" onclick='q4=1'>-<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 5 :</b></font>
+<br>Combien de diagrammes existaient dans le version 1.x d'UML ?<br>
+<input type="radio" name="choix5" onclick='q5=0'>11<br>
+<input type="radio" name="choix5" onclick='q5=1'>9<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 6 :</b></font>
+<br>Les noms des classes et attributs par convention doivent être ? <br>
+<input type="radio" name="choix6" onclick='q6=1'>au singulier<br>
+<input type="radio" name="choix6" onclick='q6=0'>au pluriel<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 7 :</b></font>
+<br> En UML, un synonyme de composition est  ?<br>
+<input type="radio" name="choix7" onclick='q7=1'>  composition forte<br>
+<input type="radio" name="choix7" onclick='q7=0'> composition faible<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 8 :</b></font>
+<br> Les noms des classes et attributs par convention doivent être ? <br>
+<input type="radio" name="choix8" onclick='q8=1'>  au singulier<br>
+<input type="radio" name="choix8" onclick='q8=0'>au pluriel<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 9 :</b></font>
+<br> On parle d'héritage multiple quand ?<br>
+<input type="radio" name="choix9" onclick='q9=0'>une classe mère a plusieurs sous-classes<br>
+<input type="radio" name="choix9" onclick='q9=1'>une sous-classe a plusieurs classes mères<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 10 :</b></font>
+<br>Dans un diagramme de séquence, un message synchrone à ?<br>
+<input type="radio" name="choix10" onclick='q10=1'>une flèche pleine  <br>
+<input type="radio" name="choix10" onclick='q10=0'> un rond plein<br>
+
+
+<p align="center">
+<input name="Submit" value="resultat" onclick="resultat()" type="button"
+style="
+	width:150px;
+	height:60px;
+	
+	font-size:20px;   
+	font-weight:bold;
+	color :#FCDC12;
+	background: #4B0082;
+	position:relative;
+	cursor: pointer;
+	border: 4px solid #9E0E40;"></p>
+</form>
+
+</body></html>

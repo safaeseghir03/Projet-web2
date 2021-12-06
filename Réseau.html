@@ -1,0 +1,158 @@
+<html><head><title>QUIZ INFORMATIQUE</title><meta http-equiv="Content-Type"
+ content="text/html; "charset=ISO-8859-1"></head>
+ <style>body{
+	background-image:url("cisco.jpg");
+background-repeat: no-repeat;
+	 align-items: center;
+	background-size:cover;}
+</style>
+<body>
+<script type="text/javascript">
+
+var q1= 0;
+var q2= 0;
+var q3= 0;
+var q4= 0;
+var q5= 0;
+var q6= 0;
+var q7= 0;
+var q8= 0;
+var q9= 0;
+var q10= 0;
+
+//calcul du score
+function calcul() {score=q1+q2+q3+q4+q5+q6+q7+q8+q9+q10;}
+
+
+//commentaire du résultat
+ function resultat() {calcul();
+					 switch (score)
+{
+case 0:
+alert ("votre resultat est "+score+" sur 10,Réesayer une autre fois");
+break;
+case 1:
+alert ("votre resultat est "+score+" sur 10,Insufisant");
+break;
+case 2:
+alert ("votre resultat est "+score+" sur 10,Insufisant");
+break;
+case 3:
+alert ("votre resultat est "+score+" sur 10,Insufisant");
+break;
+case 4:
+alert ("votre resultat est "+score+" sur 10,Insufisant");
+break;
+case 5:
+alert ("votre resultat est "+score+" sur 10,Passable");
+break;
+case 6:
+alert("votre resultat est "+score+" sur 10,Assez Bien");
+break;
+case 7:
+alert("votre resultat est "+score+" sur 10,Assez Bien");
+break;
+case 8:
+alert("votre resultat est "+score+" sur 10,Bien");
+break;
+case 9:
+alert("votre resultat est "+score+" sur 10,Trés Bien");
+break;
+case 10:
+alert ("votre resultat est "+score+" sur 10,Exellent");
+break;
+}}
+ </script>
+
+<div align="center"><br><big style="font-style: italic;"><font style="font-family: Arial; font-weight: bold; color:#45aaf2; font-size: 50px;"> QUIZ Réseau </font></big></div>
+</div>
+
+<form><p>
+<!--Mise en forme de tout le texte sauf Question X-->
+<font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 1 :</b></font>
+<br>Quel protocole fonctionne au niveau de la couche transport fournit un service sans connexion entre les hôtes?<br>
+<input type="radio" name="choix1" onclick='q1=1'>UDP<br>
+<input type="radio" name="choix1" onclick='q1=0'>TCP<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 2 :</b></font>
+<br>Quel protocole fonctionne au niveau de la couche transport et fournit des circuits virtuels entre les hôtes?<br>
+<input type="radio" name="choix2" onclick='q2=1'>TCP<br>
+<input type="radio" name="choix2" onclick='q2=0'>ARP<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 3 :</b></font>
+<br>Quel protocole fonctionne au niveau de la couche Internet et fournit un service de connexion entre les hôtes?<br>
+<input type="radio" name="choix3" onclick='q3=0'>ARP<br>
+<input type="radio" name="choix3" onclick='q3=1'>IP<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 4 :</b></font>
+<br>Si un hôte diffuse une trame contenant une adresse MAC source et une adresse de destination et que son objectif est d’attribuer une adresse IP, quel protocole de la couche Réseau l’hôte utilise-t-il?<br>
+<input type="radio" name="choix4" onclick='q4=1'>RARP<br>
+<input type="radio" name="choix4" onclick='q4=0'>ARPA<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 5 :</b></font>
+<br> Si une interface de routeur est encombrée, quel protocole de la suite IP est utilisé pour informer les routeurs voisins?<br>
+<input type="radio" name="choix5" onclick='q5=0'>ARP<br>
+<input type="radio" name="choix5" onclick='q5=1'>ICMP<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 6 :</b></font>
+<br>Quelle est la plage d’hôtes valide dont l’adresse IP 172.16.10.22 / 255.255.255.240 fait partie?<br>
+<input type="radio" name="choix6" onclick='q6=1'>172.16.10.17 à 172.16.10.30<br>
+<input type="radio" name="choix6" onclick='q6=0'> 172.16.10.17 à 172.16.10.31<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 7 :</b></font>
+<br>  Quel protocole est utilisé pour trouver l’adresse MAC d’un périphérique local?<br>
+<input type="radio" name="choix7" onclick='q7=0'>192-220<br>
+<input type="radio" name="choix7" onclick='q7=1'>128-191<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 8 :</b></font>
+<br>Quel protocole est utilisé pour trouver l’adresse MAC d’un périphérique local?<br>
+<input type="radio" name="choix8" onclick='q8=1'>ARP<br>
+<input type="radio" name="choix8" onclick='q8=0'>IP<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 9 :</b></font>
+<br>Combien d’octets sont nécessaires pour coder une adresse Ethernet?<br>
+<input type="radio" name="choix9" onclick='q9=0'>4<br>
+<input type="radio" name="choix9" onclick='q9=1'>6<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 10 :</b></font>
+<br>Quelle plage d’adresses peut être utilisée dans le premier octet d’une adresse de classe C?<br>
+<input type="radio" name="choix10" onclick='q10=1'> 192-223<br>
+<input type="radio" name="choix10" onclick='q10=0'> 129-192<br>
+
+
+<p align="center">
+<input name="Submit" value="resultat" onclick="resultat()" type="button"
+style="
+	width:150px;
+	height:60px;
+	border: 4px solid #ff1493;
+	font-size:20px;   
+	font-weight:bold;
+	color :blue;
+	background: white;
+	position:relative;
+	cursor: pointer;
+	border: 4px solid #45aaf2;"></p>
+</form>
+
+</body></html>

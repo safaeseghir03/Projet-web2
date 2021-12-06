@@ -1,0 +1,160 @@
+<html><head><title>QUIZ INFORMATIQUE</title><meta http-equiv="Content-Type"
+ content="text/html; "charset=ISO-8859-1"></head>
+ <style>body{
+	background-image:url("oracle.jpg");
+background-repeat: no-repeat;
+	 align-items: center;
+	background-size:cover;}
+</style>
+<body>
+<script type="text/javascript">
+
+var q1= 0;
+var q2= 0;
+var q3= 0;
+var q4= 0;
+var q5= 0;
+var q6= 0;
+var q7= 0;
+var q8= 0;
+var q9= 0;
+var q10= 0;
+
+//calcul du score
+function calcul() {score=q1+q2+q3+q4+q5+q6+q7+q8+q9+q10;}
+
+
+//commentaire du résultat
+ function resultat() {calcul();
+					 switch (score)
+{
+case 0:
+alert ("votre resultat est "+score+" sur 10,Réesayer une autre fois");
+break;
+case 1:
+alert ("votre resultat est "+score+" sur 10,Insufisant");
+break;
+case 2:
+alert ("votre resultat est "+score+" sur 10,Insufisant");
+break;
+case 3:
+alert ("votre resultat est "+score+" sur 10,Insufisant");
+break;
+case 4:
+alert ("votre resultat est "+score+" sur 10,Insufisant");
+break;
+case 5:
+alert ("votre resultat est "+score+" sur 10,Passable");
+break;
+case 6:
+alert("votre resultat est "+score+" sur 10,Assez Bien");
+break;
+case 7:
+alert("votre resultat est "+score+" sur 10,Assez Bien");
+break;
+case 8:
+alert("votre resultat est "+score+" sur 10,Bien");
+break;
+case 9:
+alert("votre resultat est "+score+" sur 10,Trés Bien");
+break;
+case 10:
+alert ("votre resultat est "+score+" sur 10,Exellent");
+break;
+}
+					 }
+
+ </script>
+
+<div align="center"><br><big style="font-style: italic;"><font style="font-family: Arial; font-weight: bold;color:#FF0000; font-size: 50px;">QUIZ ORACLE</font></big></div>
+</div>
+
+<form><p>
+<!--Mise en forme de tout le texte sauf Question X-->
+<font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 1 :</b></font>
+<br>Quelle est l’utilisation du « Library cache » dans Oracle?<br>
+<input type="radio" name="choix1" onclick='q1=1'>Utilisé pour stocker le shared SQL<br>
+<input type="radio" name="choix1" onclick='q1=0'>Contient les modifications apportées à la base de données<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 2 :</b></font>
+<br> Quel processus est une instance d’Oracle?<br>
+<input type="radio" name="choix2" onclick='q2=0'>Processus de données (Data processes)<br>
+<input type="radio" name="choix2" onclick='q2=1'>Processus d’arrière-plan(Background processes)<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 3 :</b></font>
+<br>Lequel du segment suivant est détruit lorsque une instruction SQL est terminée?<br>
+<input type="radio" name="choix3" onclick='q3=1'>Segment temporaire<br>
+<input type="radio" name="choix3" onclick='q3=0'> Segment d’objet<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 4 :</b></font>
+<br> Le « redo log buffer » et « Shared pool » sont des éléments de ______ ?<br>
+<input type="radio" name="choix4" onclick='q4=0'>PGA<br>
+<input type="radio" name="choix4" onclick='q4=1'>SGA<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 5 :</b></font>
+<br>Dans Oracle, quels sont les types de segments ci-dessous?<br>
+<input type="radio" name="choix5" onclick='q5=0'>Segment d’objet<br>
+<input type="radio" name="choix5" onclick='q5=1'>Segment de données<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 6 :</b></font>
+<br> ____________ contient un ensemble de tables et de vues que Oracle utilise comme référence à la base de données?<br>
+<input type="radio" name="choix6" onclick='q6=0'>Library cache<br>
+<input type="radio" name="choix6" onclick='q6=1'>Data dictionary<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 7 :</b></font>
+<br> Quelle zone de PGA stocke les variables de liaison et les informations sur les buffers en cours d’exécution ?<br>
+<input type="radio" name="choix7" onclick='q7=1'>  Private SQL area<br>
+<input type="radio" name="choix7" onclick='q7=0'> Stack space<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 8 :</b></font>
+<br> Quelle est l’utilisation de extent dans Oracle?<br>
+<input type="radio" name="choix8" onclick='q8=1'>  Minimiser la quantité de stockage gaspillé<br>
+<input type="radio" name="choix8" onclick='q8=0'>stocker les definitions<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 9 :</b></font>
+<br> Lesquels des composants suivants comprennent une architecture Oracle?<br>
+<input type="radio" name="choix9" onclick='q9=0'>Tablespaces<br>
+<input type="radio" name="choix9" onclick='q9=1'>PGA<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 10 :</b></font>
+<br>A quoi sert un index?<br>
+<input type="radio" name="choix10" onclick='q10=1'>Récupérer des données plus rapidement et plus efficacement  <br>
+<input type="radio" name="choix10" onclick='q10=0'> Simplifier la perception de l’utilisateur quant à l’accès aux données<br>
+
+
+<p align="center">
+<input name="Submit" value="resultat" onclick="resultat()" type="button"
+style="
+	width:150px;
+	height:60px;
+
+	font-size:20px;   
+	font-weight:bold;
+	color :#FF0000;
+	background: #FEE7F0;
+	position:relative;
+	cursor: pointer;
+	border: 4px solid #FF0000;"></p>
+</form>
+
+</body></html>

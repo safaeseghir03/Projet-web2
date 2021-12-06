@@ -1,0 +1,159 @@
+<html><head><title>QUIZ INFORMATIQUE</title><meta http-equiv="Content-Type"
+ content="text/html; "charset=ISO-8859-1"></head>
+ <style>body{
+	background-image:url("php.png");
+background-repeat: no-repeat;
+	 align-items: center;
+	background-size:cover;}
+</style>
+<body>
+<script type="text/javascript">
+
+var q1= 0;
+var q2= 0;
+var q3= 0;
+var q4= 0;
+var q5= 0;
+var q6= 0;
+var q7= 0;
+var q8= 0;
+var q9= 0;
+var q10= 0;
+
+//calcul du score
+function calcul() {score=q1+q2+q3+q4+q5+q6+q7+q8+q9+q10;}
+
+
+//commentaire du résultat
+function resultat() {calcul();
+					 switch (score)
+{
+case 0:
+alert ("votre resultat est "+score+" sur 10,Réesayer une autre fois");
+break;
+case 1:
+alert ("votre resultat est "+score+" sur 10,Insufisant");
+break;
+case 2:
+alert ("votre resultat est "+score+" sur 10,Insufisant");
+break;
+case 3:
+alert ("votre resultat est "+score+" sur 10,Insufisant");
+break;
+case 4:
+alert ("votre resultat est "+score+" sur 10,Insufisant");
+break;
+case 5:
+alert ("votre resultat est "+score+" sur 10,Passable");
+break;
+case 6:
+alert("votre resultat est "+score+" sur 10,Assez Bien");
+break;
+case 7:
+alert("votre resultat est "+score+" sur 10,Assez Bien");
+break;
+case 8:
+alert("votre resultat est "+score+" sur 10,Bien");
+break;
+case 9:
+alert("votre resultat est "+score+" sur 10,Trés Bien");
+break;
+case 10:
+alert ("votre resultat est "+score+" sur 10,Exellent");
+break;
+}
+}
+ </script>
+
+<div align="center"><br><big style="font-style: italic;"><font style="font-family: Arial; font-weight: bold; color: white;font-size: 50px;"> QUIZ PHP</font></big></div>
+</div>
+
+<form><p>
+<!--Mise en forme de tout le texte sauf Question X-->
+<font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 1 :</b></font>
+<br>Que signifie PHP?<br>
+<input type="radio" name="choix1" onclick='q1=1'>Personal Home Page<br>
+<input type="radio" name="choix1" onclick='q1=0'>Pretext Hypertext Processor<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 2 :</b></font>
+<br> Les fichiers PHP ont l’extension …. ?<br>
+<input type="radio" name="choix2" onclick='q2=0'>.html<br>
+<input type="radio" name="choix2" onclick='q2=1'>.php<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 3 :</b></font>
+<br>Pour envoyer un email au format HTML en PHP il faut<br>
+<input type="radio" name="choix3" onclick='q3=1'>créer un header au content-type : text/html<br>
+<input type="radio" name="choix3" onclick='q3=0'>utiliser la fonction mail_html()<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 4 :</b></font>
+<br> Lequel des éléments suivants doit être installe sur votre ordinateur pour exécuter des scripts PHP?<br>
+<input type="radio" name="choix4" onclick='q4=0'>Adobe Dreamweaver<br>
+<input type="radio" name="choix4" onclick='q4=1'>PHP<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 5 :</b></font>
+<br>Quelle version de PHP a introduit Try/catch Exception?<br>
+<input type="radio" name="choix5" onclick='q5=0'>PHP 4<br>
+<input type="radio" name="choix5" onclick='q5=1'>PHP 5<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 6 :</b></font>
+<br>Nous pouvons utiliser ___ pour commenter une seule ligne?<br>
+<input type="radio" name="choix6" onclick='q6=0'> /?<br>
+<input type="radio" name="choix6" onclick='q6=1'> //<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 7 :</b></font>
+<br> Laquelle parmi les instructions php suivantes va stocker 55 dans la variable nbr?<br>
+<input type="radio" name="choix7" onclick='q7=1'>$nbr= 55;<br>
+<input type="radio" name="choix7" onclick='q7=0'>int $nbr= 55;<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 8 :</b></font>
+<br> Qu'est-ce que PHP ?<br>
+<input type="radio" name="choix8" onclick='q8=0'>C'est un langage de programmation compile.<br>
+<input type="radio" name="choix8" onclick='q8=1'>C'est un langage de scripts permettant de créer des sites Web dynamiques<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 9 :</b></font>
+<br>Quel est l'usage le plus courant du PHP ?<br>
+<input type="radio" name="choix9" onclick='q9=1'>Créer des sites Web dynamiques<br>
+<input type="radio" name="choix9" onclick='q9=0'>Créer des sites Web statiques<br>
+
+
+<p>
+<hr align="center" noshade="noshade"> <p><font style="color: rgb(102, 51, 102);" face="Verdana, Arial, Helvetica, sans-serif" size="5"><b>Question 10 :</b></font>
+<br>Je veux créer une page Web contenant le titre suivant : "Ma première page Web". Aurai-je besoin du PHP ?<br>
+<input type="radio" name="choix10" onclick='q10=0'>Oui, puisque PHP permet de construire une page Web<br>
+<input type="radio" name="choix10" onclick='q10=1'> Non, le HTML est suffisant.<br>
+
+
+<p align="center">
+<input name="Submit" value="resultat" onclick="resultat()" type="button"
+style="
+	width:150px;
+	height:60px;
+	
+	font-size:20px;   
+	font-weight:bold;
+	color :#9683EC;
+	background: white;
+	position:relative;
+	cursor: pointer;
+	border: 4px solid #791CF8;"></p>
+</form>
+
+</body></html>
